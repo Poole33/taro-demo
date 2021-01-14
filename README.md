@@ -107,3 +107,47 @@ Taro 需要运行不同的命令，将 Taro 代码编译成不同端的代码，
 
 ## Demo 使用
 <a name=“demo”></a>
+[github仓库](https://github.com/ptcp3/taro-demo#demo) 拉取项目
+
+### 项目初始化
+
+此命令会自动安装项目所需的依赖，如果安装失败可以自己在项目目录下自己使用命令进行安装
+>使用 yarn 安装依赖  
+>**yarn**  
+>使用 npm 安装依赖  
+>**npm install**  
+>使用 cnpm 安装依赖  
+>**cnpm install**  
+
+### 项目运行
+#### 微信小程序运行方法  
+微信小程序需要安装[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html)
+
+微信小程序开发流程内容较多，一篇文档很难详细讲解清楚的，官方的文档是最好的实践开发文档，自认为不能写的比官方文档更好，所以最好自己根据官方文档实际操作一遍，有兴趣可自行查看[官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)了解流程
+
+微信开发者工具使用详情参见[官方文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
+
+大致使用方法：（macOS）  
+>使用 yarn  
+>**yarn dev:weapp**  
+>**yarn build:weapp**  
+>使用 npm  
+>**npm run dev:weapp**  
+>**npm run build:weapp**  
++ 打开微信开发者工具
++ dock栏 -> 项目 -> 新建项目
++ 选择导入项目 -> 选择目录（目录地址为项目根目录的**dist**文件）
++ AppID 可不填
+
+#### H5运行方式
+使用微信小程序方式运行，需要介入微信开发者工具。目前体验下来，使用此工具开发存在一些闪退和卡顿的问题，所以建议平时开发使用H5的方式进行调试。微信小程序运行作为最后上线时检查兼容等问题的环境。
+>使用 yarn  
+>**yarn dev:H5**  
+>使用 npm  
+>**npm run dev:H5**   
+
+### 项目开发
+项目开发使用React语法集成了Redux，具体语法自行查阅React相关开发文档 
+ 
+整体的开发流程有详细的案例，在src->pages->home->home.jsx中可参考
+
