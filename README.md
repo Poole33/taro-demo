@@ -81,28 +81,28 @@ Taro 需要运行不同的命令，将 Taro 代码编译成不同端的代码，
 
 ### 文件划分
 
-	├── dist                   	编译结果目录
-	├── config                 	配置目录
-	|   ├── dev.js             	开发时配置
-	|   ├── index.js           	默认配置
-	|   └── prod.js            	打包时配置
-	├── src                    	源码目录
-	|   ├── actions					action文件目录
+	├── dist                      编译结果目录
+	├── config                    配置目录
+	|   ├── dev.js                开发时配置
+	|   ├── index.js              默认配置
+	|   └── prod.js               打包时配置
+	├── src                       源码目录
+	|   ├── actions               action文件目录
 	|   ├── assets              	静态资源文件目录
 	|   ├── components            全局组件文件目录
 	|   ├── constans              全局常量文件目录
-	|   ├── pages              	页面文件目录
-	|   |   ├── index          	index 页面目录
+	|   ├── pages                 页面文件目录
+	|   |   ├── index             index 页面目录
 	|   |   |   ├── index.config.js   index 页面配置项
-	|   |   |   ├── index.js   	index 页面逻辑
-	|   |   |   └── index.css  	index 页面样式
-	|   ├── reducers    			reducer文件目录
+	|   |   |   ├── index.js      index 页面逻辑
+	|   |   |   └── index.css     index 页面样式
+	|   ├── reducers              reducer文件目录
 	|   ├── services              api服务封装管理文件目录
-	|   ├── store              	store文件目录
-	|   ├── utils              	共公方法文件目录
+	|   ├── store                 store文件目录
+	|   ├── utils                 共公方法文件目录
 	|   ├── app.config.js         项目入口配置文件
-	|   ├── app.css            	项目总通用样式
-	|   └── app.js             	项目入口文件
+	|   ├── app.css               项目总通用样式
+	|   └── app.js                项目入口文件
 	└── package.json
 
 ## Demo 使用
