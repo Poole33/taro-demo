@@ -88,7 +88,7 @@ Taro 需要运行不同的命令，将 Taro 代码编译成不同端的代码，
 	|   └── prod.js               打包时配置
 	├── src                       源码目录
 	|   ├── actions               action文件目录
-	|   ├── assets              	静态资源文件目录
+	|   ├── assets                静态资源文件目录
 	|   ├── components            全局组件文件目录
 	|   ├── constans              全局常量文件目录
 	|   ├── pages                 页面文件目录
