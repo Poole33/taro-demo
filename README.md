@@ -4,7 +4,7 @@
   **Taro** 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ 小程序 / H5 等应用。现如今市面上端的形态多种多样，Web、React Native、微信小程序等各种端大行其道，当业务要求同时在不同的端都要求有所表现的时候，针对不同的端去编写多套代码的成本显然非常高，这时候只编写一套代码就能够适配到多端的能力就显得极为需要。
 
 ## Taro安装及使用
->若你想直接使用本demo进行开发，可略过这些步骤直接查看最后的[Demo 使用](#Demo 使用)。但从头看完文档会加深你对Taro的理解。也可直接去[Taro官网](https://docs.taro.zone/docs/README)进行更加详细的学习。
+>若你想直接使用本demo进行开发，可略过这些步骤直接查看最后的[Demo使用](#Demo使用)。但从头看完文档会加深你对Taro的理解。也可直接去[Taro官网](https://docs.taro.zone/docs/README)进行更加详细的学习。
 
 Taro 项目基于 node，请确保已具备较新的 node 环境（>=12.0.0），推荐使用 node 版本管理工具 nvm 来管理 node，这样不仅可以很方便地切换 node 版本，而且全局安装时候也不用加 sudo 了。
 
@@ -105,8 +105,8 @@ Taro 需要运行不同的命令，将 Taro 代码编译成不同端的代码，
 	|   └── app.js                    项目入口文件
 	└── package.json
 
-## Demo 使用
-<a name=“demo”></a>
+## Demo使用
+<!-- <a name=“demo”></a> -->
 [github仓库](https://github.com/ptcp3/taro-demo#demo) 拉取项目
 
 ### 项目初始化
