@@ -1,0 +1,60 @@
+@import "@/assets/style/theme.scss";
+
+.home {
+  position: relative;
+}
+
+.home__search {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 25px;
+  width: 100%;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+
+  &-wrap {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background-color: $text-bg;
+    @include hairline(border-width);
+    border-radius: $border-radius;
+  }
+
+  &-img {
+    margin-left: 30px;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+  }
+
+  &-txt {
+    color: $text-color-lighter;
+    font-size: $font-size;
+  }
+}
+
+.home__wrap {
+  padding: 110px 0 0;
+  background: $body-bg;
+}
+
+.home__searchpage {
+    background: $body-bg;
+}
+
+.home__loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+
+  &-txt {
+    color: $text-color-light;
+    font-size: $font-size;
+  }
+}

@@ -1,0 +1,31 @@
+@import "./mixins.scss";
+
+// 主题色
+$primary-color: #eb4057e1;
+$disabled-color: #dddddd;
+
+// 提示色
+$error-color: #a7051bdd;
+$warning-color: #dd5800ea;
+$success-color: #91e02adf;
+
+// 纯黑白
+$black: #000000;
+$white: #ffffff;
+
+// 文本色
+$text-color: #333333;
+$text-color-light: #666666;
+$text-color-lighter: #999999;
+
+// 边框样式
+$border-color: #dddddd;
+$border-radius: 9px;
+
+// 背景色
+$body-bg: #fafafa;
+$text-bg: #F0F2F4;
+$image-bg: #f4f4f4;
+
+// 正文字体大小
+$font-size: 26px;

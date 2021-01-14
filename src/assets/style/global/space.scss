@@ -1,0 +1,12 @@
+$spaceArr: 10 15 20 25 30 35 40 45 50;
+@each $space in $spaceArr {
+    .mt-#{$space} { margin-top: $space+0px; }
+    .mr-#{$space} { margin-right: $space+0px; }
+    .mb-#{$space} { margin-bottom: $space+0px; }
+    .ml-#{$space} { margin-left: $space+0px; }
+
+    .pt-#{$space} { padding-top: $space+0px; }
+    .pr-#{$space} { padding-right: $space+0px; }
+    .pm-#{$space} { padding-bottom: $space+0px; }
+    .pl-#{$space} { padding-left: $space+0px; }
+}
