@@ -123,7 +123,7 @@ Taro 需要运行不同的命令，将 Taro 代码编译成不同端的代码，
 #### 微信小程序运行方法  
 微信小程序需要安装[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html)
 
-微信小程序开发流程内容较多，一篇文档很难详细讲解清楚的，官方的文档是最好的实践开发文档，自认为不能写的比官方文档更好，所以最好自己根据官方文档实际操作一遍，有兴趣可自行查看[官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)了解流程
+>**微信小程序开发流程内容较多，一篇文档很难详细讲解清楚的，官方的文档是最好的实践开发文档，自认为不能写的比官方文档更好，所以最好自己根据官方文档实际操作一遍，有兴趣可自行查看[官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)了解流程**
 
 微信开发者工具使用详情参见[官方文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 
