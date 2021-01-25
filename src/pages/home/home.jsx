@@ -49,7 +49,7 @@ export default class Home extends Component {
             scrollY
             className='home__wrap'
             onScrollToLower={this.loadRecommend}
-            style={{ height: getWindowHeight() }}
+            style={{ height: getWindowHeight() - 110 }}
           >
             <CardList list={list}>
             </CardList>

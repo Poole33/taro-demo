@@ -1,0 +1,48 @@
+@import "@/assets/style/theme.scss";
+
+.detail__wrap {
+	position: relative;
+	padding: 25px;
+	padding-bottom: 200px;
+	background: $body-bg;
+}
+
+.detail__bottom {
+	display: block;
+	position: fixed;
+	height: 110px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(250, 250, 250);
+	border-top: 1px solid $border-color;
+	padding-bottom: constant(safe-area-inset-bottom);
+	padding-bottom: env(safe-area-inset-bottom);
+	&-content {
+		padding: 0 60px;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.item {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			flex-direction: column;
+            width: 15%;
+            .iconfont {
+                font-size: $font-size + 15;
+            }
+			.text {
+				font-size: $font-size;
+			}
+		}
+	}
+}
+
+.detail__about {
+    &-img {
+        width: 100%;
+        border-radius: $border-radius;
+    }
+}

@@ -1,0 +1,22 @@
+@import "@/assets/style/theme.scss";
+.title-2 {
+    font-size: $font-size + 9;
+    font-weight: bold;
+	display: block;
+	color: $text-color;
+}
+
+.remark-info {
+	font-size: $font-size - 6;
+	display: block;
+    color: $text-color-lighter;
+}
+
+.main-text {
+	padding-top: 25px;
+	font-size: $font-size;
+	display: block;
+	line-height: 2;
+    color: $text-color;
+    word-break: break-all;
+}

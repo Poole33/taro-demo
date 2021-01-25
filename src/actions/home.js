@@ -10,14 +10,14 @@ export const dispatchList = (req) => {
 						{
 							id: 1,
 							imgUrl: 'http://pic01.bdatu.com/Upload/picimg/thumb_1609314548.jpg',
-							name: '世界网吧',
-							address: '长安西街一初中往西500m路南'
+							name: 'test1',
+							address: '金科路788号绿地智创商务中心13层七猫'
 						},
 						{
 							id: 2,
 							imgUrl: 'http://pic01.bdatu.com/Upload/picimg/thumb_1609314502.jpg',
-							name: '三月网吧',
-							address: '长安西街一初中往西500m路北'
+							name: 'test2',
+							address: '金科路788号绿地智创商务中心13层七猫'
 						}
 					]
 				}

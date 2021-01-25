@@ -2,7 +2,8 @@ export default {
   pages: [
     'pages/home/home',
     'pages/mine/mine',
-    'pages/collect/collect'
+    'pages/collect/collect',
+    'pages/detail/detail'
   ],
   window: {
     backgroundTextStyle: 'light',
