@@ -105,7 +105,7 @@ Taro 需要运行不同的命令，将 Taro 代码编译成不同端的代码，
 	|   ├── services                  api服务封装管理文件目录
 	|   ├── store                     store文件目录
 	|   ├── utils                     共公方法文件目录
-	|   ├── app.config.js             项目入口配置文件
+	|   ├── app.config.js             项目入口配置文件 -- 路由配置
 	|   ├── app.css                   项目总通用样式
 	|   └── app.js                    项目入口文件
 	└── package.json
